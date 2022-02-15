@@ -1,5 +1,6 @@
 * {
     font-family: roboto;
+    
 }
 
 
@@ -28,7 +29,13 @@
     color: #e5e7eb;
 }
 
-h2 {
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo {
     margin-right: 1500px;
     margin-left: 150px;
     font-size: 24px;
@@ -39,7 +46,7 @@ h2 {
 .hero {
     display:flex;
     flex-direction: column;
-    width: 450px;
+    width: 400px;
     margin-left: 150px;
 }
 
@@ -63,4 +70,30 @@ h2 {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-start;
+    text-align: center;
+    
+    
+}
+
+img {
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    margin-left: 1000px;
+    margin-bottom: 400px;
+    line-height: 400px;
+    
+}
+
+.info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
 }
