@@ -77,11 +77,6 @@
     justify-self: flex-end;
     align-self: flex-start;
     text-align: center;
-    
-    
-}
-
-img {
     width: 800px;
     height: 400px;
     background-color: grey;
@@ -89,11 +84,46 @@ img {
     margin-bottom: 400px;
     line-height: 400px;
     
+    
 }
+
 
 .info {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
     text-align: center;
+}
+
+.squarecontainer {
+    display: flex;
+ 
+    justify-content: center;
+   
+}
+
+.squares{
+    
+    width: 200px;
+    height: 200px;
+    margin: 0 50px 0 0;
+    border: 2.5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.squaregroup{
+    display: flex;
+    align-items: ;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.subtext {
+    
+    width: 150px;
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 150px;
+    
 }
